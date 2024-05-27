@@ -4,6 +4,7 @@ body{
     color: #222222;
     margin: 0;
     font-family: "Barlow";
+    width: 100%;
 }
 
 a{
@@ -19,6 +20,7 @@ a:hover{
     width: auto;
     text-align: center;
     padding: 0;
+    margin-top: 20px;
 }
 
 .menu{
@@ -32,7 +34,7 @@ a:hover{
     padding: 0;
 }
 
-.menu-links{
+.menu-links li{
     display: inline-block;
     padding: 0px 20px;
 }
@@ -92,11 +94,12 @@ a:hover{
 
 .cardapio-nome{
     display: inline-block;
-     font-size: 18px;
-     font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .cardapio-preco{
+    font-size: 18px;
     float: right;
 }
 
@@ -118,27 +121,22 @@ footer{
 footer p{
     margin: 3px;
 }
-
 .link-whatsapp img{
     height: 60px;
     position: fixed;
     right: 40px;
     bottom: 40px;
 }
-
-@media (max-width: 900px){
+@media(max-width:900px){
     .coluna{
         width: 100%;
         vertical-align: middle;
         margin-bottom: 30px;
     }
-
-    .banner p{
-        font-size: 25px;
-        padding-left: 50px;
-        padding-right: 50px;
-        text-align: center;
-    }
-
-
+}
+.banner p{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
